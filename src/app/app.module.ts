@@ -8,6 +8,7 @@ import { CursosService } from './services/cursos.service';
 import { DiretivaNgForComponent } from './diretiva-ng-for/diretiva-ng-for.component';
 import { DiretivaNgSwitchComponent } from './diretiva-ng-switch/diretiva-ng-switch.component';
 import { DiretivaNgClassComponent } from './diretiva-ng-class/diretiva-ng-class.component';
+import { DiretivaNgStyleComponent } from './diretiva-ng-style/diretiva-ng-style.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DiretivaNgClassComponent } from './diretiva-ng-class/diretiva-ng-class.
     DiretivaNgIfComponent,
     DiretivaNgForComponent,
     DiretivaNgSwitchComponent,
-    DiretivaNgClassComponent
+    DiretivaNgClassComponent,
+    DiretivaNgStyleComponent
   ],
   imports: [
     BrowserModule,
