@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'diretiva-customizada',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./diretiva-customizada.component.scss']
 })
 export class DiretivaCustomizadaComponent {
-
+  color:string = '';
 }
